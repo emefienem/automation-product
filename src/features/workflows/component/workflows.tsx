@@ -14,7 +14,7 @@ import {
   useCreateWorkflow,
   useRemoveWorkflow,
   useSuspenseWorkflows,
-} from "../hooks/use-workflow";
+} from "../hooks/use-workflows";
 import React from "react";
 import { useUpgradeModal } from "@/hooks/use-upgrade-modal";
 import { useRouter } from "next/navigation";
