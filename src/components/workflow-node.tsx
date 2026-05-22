@@ -24,16 +24,16 @@ export function WorkflowNode({
 }: WorkflowNodeProps) {
   return (
     <>
-      {showToolbar && (
-        <NodeToolbar>
-          <Button size="sm" variant="ghost" onClick={onSettings}>
-            <SettingsIcon className="size-4" />
-          </Button>
-          <Button size="sm" variant="ghost" onClick={onDelete}>
-            <TrashIcon className="size-4" />
-          </Button>
-        </NodeToolbar>
-      )}
+      {/* {showToolbar && ( */}
+      <NodeToolbar isVisible={showToolbar}>
+        <Button size="sm" variant="ghost" onClick={onSettings}>
+          <SettingsIcon className="size-4" />
+        </Button>
+        <Button size="sm" variant="ghost" onClick={onDelete}>
+          <TrashIcon className="size-4" />
+        </Button>
+      </NodeToolbar>
+      {/* )} */}
       {children}
       {name && (
         <NodeToolbar

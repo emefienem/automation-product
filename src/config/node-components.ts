@@ -1,9 +1,13 @@
 import { InitialNode } from "@/components/intital-node";
-import type { NodeTypes } from "@xyflow/react";
+import { NodeTypes } from "@xyflow/react";
 import { NodeType } from "@/shared/node-types";
+import { HttpRequestNode } from "@/features/executions/components/http-request/node";
+import { ManualTriggerNode } from "@/features/triggers/components/manual-trigger/node";
 
 export const nodeComponents = {
   [NodeType.INITIAL]: InitialNode,
+  [NodeType.MANUAL_TRIGGER]: ManualTriggerNode,
+  [NodeType.HTTP_REQUEST]: HttpRequestNode,
 } as const satisfies NodeTypes;
 
 export type RegisteredNodeType = keyof typeof nodeComponents;
