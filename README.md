@@ -78,13 +78,13 @@ Users can build workflows visually, connect triggers, process data with AI, and 
 
 ## Architecture
 `Frontend (Next.js + React Flow)
-        ↓
+        ->
 API Layer (tRPC)
-        ↓
+        ->
 Workflow Engine (Node-based execution system)
-        ↓
+        ->
 Queue System (Inngest)
-        ↓
+        ->
 Database (Prisma + Neon Postgres)`
 
 ## Tech Stack
