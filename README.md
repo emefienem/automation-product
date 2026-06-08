@@ -6,7 +6,7 @@ Built with scalability, extensibility, and real-world business use cases in mind
 
 ## Overview
 
-Nexora Automations is a no-code/low-code workflow automation engine inspired by tools like n8n and Zapier, enhanced with AI-native capabilities.
+This is a no-code/low-code workflow automation engine inspired by tools like n8n and Zapier, enhanced with AI-native capabilities.
 
 Users can build workflows visually, connect triggers, process data with AI, and execute background jobs reliably at scale.
 
@@ -108,7 +108,3 @@ Database (Prisma + Neon Postgres)`
 ## Status
 
 - Currently in active development
-
-## 🧑‍💻 Author
-
-Built by Michael Emefienem
