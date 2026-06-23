@@ -28,3 +28,6 @@ called `Option::unwrap()` on a `None` value
 ERROR [lib::logging] Got panic. @info:panicked at src/term/screen.rs:445:10:
 called `Option::unwrap()` on a `None` value
 @stackTrace:disabled backtrace
+ERROR [lib::logging] Got panic. @info:panicked at src/term/screen.rs:445:10:
+called `Option::unwrap()` on a `None` value
+@stackTrace:disabled backtrace
